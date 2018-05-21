@@ -1,8 +1,5 @@
-# simple-react-app
-
-[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
-
-But you still get it.
+# carousel-bbdo
+Exercise application for BBDO
 
 Simple base app with react, react-router v4, hot-reload &amp; sass.
 
@@ -97,4 +94,5 @@ This project uses AirBnB Javascript specs so you can write error-free react and 
 ## How to contribute
 
 I wrote a [small guide](https://medium.com/@francesco.agnoletto/how-to-not-f-up-your-local-files-with-git-part-1-e0756c88fd3c) on how to contribute and the common etiquette to follow.
+
 
