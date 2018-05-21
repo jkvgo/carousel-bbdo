@@ -1,0 +1,79 @@
+{
+
+    "data": {
+        "carousel": {
+            "format": {
+                "img_per_page": 4,
+                "title": "My Carousel"
+            },
+            "items": [{
+                "url": "helloworld.html",
+                "img": "imgs/img1.gif",
+                "alt": "Alt text for image 1",
+                "title": "1st Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }, {
+                "url": "helloworld.html",
+                "img": "imgs/img2.gif",
+                "alt": "Alt text for image 2",
+                "title": "2nd Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }, {
+                "url": "helloworld.html",
+                "img": "imgs/img3.gif",
+                "alt": "Alt text for image 3",
+                "title": "3rd Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }, {
+                "url": "helloworld.html",
+                "img": "imgs/img4.gif",
+                "alt": "Alt text for image 4",
+                "title": "4th Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }, {
+                "url": "helloworld.html",
+                "img": "imgs/img5.gif",
+                "alt": "Alt text for image 5",
+                "title": "5th Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }, {
+                "url": "helloworld.html",
+                "img": "imgs/img6.gif",
+                "alt": "Alt text for image 6",
+                "title": "6th Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }, {
+                "url": "helloworld.html",
+                "img": "imgs/img7.gif",
+                "alt": "Alt text for image 7",
+                "title": "7th Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }, {
+                "url": "helloworld.html",
+                "img": "imgs/img8.gif",
+                "alt": "Alt text for image 8",
+                "title": "8th Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }, {
+                "url": "helloworld.html",
+                "img": "imgs/img9.gif",
+                "alt": "Alt text for image 1",
+                "title": "9th Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }, {
+                "url": "helloworld.html",
+                "img": "imgs/img10.gif",
+                "alt": "Alt text for image 10",
+                "title": "10th Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }, {
+                "url": "helloworld.html",
+                "img": "imgs/img11.gif",
+                "alt": "Alt text for image 11",
+                "title": "11th Item",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ipsam, similique."
+            }]
+        }
+    }
+
+}
