@@ -16,7 +16,10 @@ npm install -g n
 ```
 and now you have the latest stable version of node&npm.
 
-To start dev server in localhost:3000, run `npm start`
+Simplest way to use the tool locally is to start the dev server in localhost:3000 by running below command:
+
+`npm start`
+
 
 `npm run build` to build prod bundle, it includes both treeshaking and uglify to optimize the code as much as possible.
 
