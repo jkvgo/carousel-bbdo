@@ -1,7 +1,7 @@
 # carousel-bbdo
 Exercise application for BBDO
 
-Simple base app with react, hot-reload &amp; sass.
+Simple base app with react, hot-reload &amp; sass, babel and WEBPACK.
 
 `npm install` to install the all needed node modules.
 

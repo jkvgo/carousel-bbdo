@@ -52,21 +52,33 @@ body{
 					display: flex;
 					flex-flow: row nowrap;
 					justify-content: center;
-					img{
-						object-fit: none;
-						object-position: -134px 11px;
+					align-items: flex-start;
+					a{
+						outline: 0;
+						border-radius: 5px;
+						transition: background-color 100ms;
+						img{
+							object-fit: none;
+							object-position: -134px 11px;
+						}
+						img.active{
+							object-fit: none;
+							object-position: -110px 11px;
+						}
+						.Prev{
+							object-fit: none;
+							object-position: -421px -63px;
+						}
+						.Next{
+							object-fit: none;
+							object-position: -444px -62px;
+						}
 					}
-					img.active{
-						object-fit: none;
-						object-position: -110px 11px;
+					a:hover{
+						background-color: #dedddd;
 					}
-					.Prev{
-						object-fit: none;
-						object-position: -421px -63px;
-					}
-					.Next{
-						object-fit: none;
-						object-position: -444px -62px;
+					a:active{
+						background-color: #9b9b9b;
 					}
 				}
 			}

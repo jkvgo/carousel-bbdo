@@ -158,12 +158,12 @@ class Carousel extends Component{
 
 function Button(props){
     const currentPage = props.currentPage;
-    let value = props.value, isCurrent;
+    let value = props.value;
     // set current page button class to active
     let icon = value;
     if((value) === currentPage) icon += " active";
     return(
-        <a href="#" className={isCurrent} onClick={props.onClick}>
+        <a href="#" onClick={props.onClick}>
             <img className={icon} src={images["imgs/sprite.png"]} alt="ASD" width="35" height="35"/>
         </a>
     );
