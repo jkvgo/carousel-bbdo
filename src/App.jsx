@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import jsonData from '../carousel_data.json';
 
 // function that maps all images into an array of images for JSX use
@@ -87,6 +88,7 @@ class Carousel extends Component{
         // group items into per page by how much can be
         // stored per page
         rawItems.forEach((item, key) => {
+            item.key = key;
             let iterator = key + 1;
             if(!filteredItems[round]) filteredItems[round] = [];
             if(iterator > perPageTotal){
@@ -113,7 +115,7 @@ class Carousel extends Component{
                     alt={item.alt}
                     title={item.title}
                     content={item.content}
-                    key={key}
+                    key={item.key}
                 />
             );
         }) : [];
@@ -136,9 +138,16 @@ class Carousel extends Component{
                 <div className="carousel-header">
                     <h1>{title}</h1>
                 </div>
-                <div className="carousel-items">
+                <ReactCSSTransitionGroup
+                    className="carousel-items"
+                    transitionName="example"
+                    transitionAppear={true}
+                    transitionAppearTimeout={500}
+                    transitionEnter={false}
+                    transitionLeave={false}
+                >
                     {items}
-                </div>
+                </ReactCSSTransitionGroup>
                 <div className="carousel-buttons">
                     {buttons}
                 </div>
