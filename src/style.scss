@@ -34,12 +34,53 @@ body{
 		#carousel-container{
 			display: flex;
 			flex-flow: column nowrap;
-			justify-content: center;
+			// justify-content: center;
 			#carousel{
+				flex: 1;
 				display: flex;
-				flex-flow: row nowrap;
-				.carousel-item{
-					margin: 0 10px;
+				flex-flow: column nowrap;
+				.carousel-header{
+					flex: 20;
+					display: flex;
+					flex-flow: column nowrap;
+					justify-content: flex-end;
+					align-items: center;
+				}
+				.carousel-items{
+					flex: 40;
+					display: flex;
+					flex-flow: row nowrap;
+					align-items: center;
+					.carousel-item{
+						display: flex;
+						flex-flow: column nowrap;
+						margin: 0 10px;
+					}
+					.carousel-item.active{
+						left: 0;
+					}
+				}
+				.carousel-buttons{
+					flex: 20;
+					display: flex;
+					flex-flow: row nowrap;
+					justify-content: center;
+					img{
+						object-fit: none;
+						object-position: -134px 11px;
+					}
+					img.active{
+						object-fit: none;
+						object-position: -110px 11px;
+					}
+					.Prev{
+						object-fit: none;
+						object-position: -421px -63px;
+					}
+					.Next{
+						object-fit: none;
+						object-position: -444px -62px;
+					}
 				}
 			}
 		}
